@@ -22,6 +22,13 @@ Github.
 ```
 npm install 
 ```
+* Build the database
+```
+python3 manage.py makemirgrations
+```
+```
+python3 manage.py migrate
+```
 
 * Build the React App
 ```
@@ -30,10 +37,10 @@ npm run dev
 
 * Then run the server with 
 ```
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 
 
-Note : *(You might need to build the database, but probably not. There is no admin page.)*
+Note : *There is no admin page and no need for a superuser*
 
