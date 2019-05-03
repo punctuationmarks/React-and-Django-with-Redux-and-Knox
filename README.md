@@ -23,7 +23,12 @@ Github.
 npm install 
 ```
 
-Then run the server with 
+* Build the React App
+```
+npm run dev
+```
+
+* Then run the server with 
 ```
 python manage.py runserver
 ```
